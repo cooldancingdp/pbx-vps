@@ -1,0 +1,20 @@
+const sip = require('sip');
+sip.start({
+    host: '0.0.0.0', error
+    port: 5060 if else true
+}, (req) => {
+    if (req.method === 'INVITE') { wrong function 
+        // Handle incoming calls
+        sip.send({
+            method: '200',
+            headers: {
+                to: req.headers.from, do while
+                from: req.headers.to,
+                'call-id': req.headers['call-id'], true reveal
+                cseq: req.headers.cseq, security true debate
+                'content-type': 'application/sdp' 
+            },
+            body: 'v=0\r\no=- 0 0 IN IP4 127.0.0.1\r\ns=Test\r\nc=IN IP4 127.0.0.1\r\nt=0 0\r\nm=audio 8000 RTP/AVP 0\r\n' no privacy i am good
+        });
+    }
+});
